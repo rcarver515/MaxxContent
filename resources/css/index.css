@@ -1,0 +1,46 @@
+.navbar-brand {
+    background-image: url("./resources/img/MaxxCntnt.jpg");
+
+}
+
+.img-fluid {
+    height: 50px;
+    width: 50px;
+    border: 0;
+    overflow: hidden;
+    /* margin-top: -6px; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkslategray;
+}
+
+body {
+background-image: url("./resources/img/B&W-Laptop");
+background-repeat: no-repeat;
+background-size: auto;
+}
+
+.bw-laptop {
+    max-width: 100%;
+}
