@@ -79,3 +79,12 @@ section {
 h3 {
     color: rgb(148, 14, 14);  
 }
+ 
+#lms {
+    color: rgb(148, 14, 14);   
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+}
