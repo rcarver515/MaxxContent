@@ -61,4 +61,21 @@ background-size: cover;
 
 #building {
     text-align: center;
+    color: rgb(148, 14, 14);
+}
+
+#about {
+    text-align: center;
+}
+
+section {
+    display: block;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(148, 14, 14);  
 }
