@@ -1,14 +1,10 @@
 .navbar-brand {
+   
     background-image: url("./resources/img/MaxxCntnt.jpg");
-
 }
 
 #nav {
     background-color: black;
-    color: whitesmoke;
-}
-
-.nav {
     color: whitesmoke;
 }
 
@@ -28,16 +24,18 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: red;
+    
 }
 
 li {
-    float: left;
+    float: right;
     border: 1px solid black;
-    margin: 4px;
+    margin: 1px;
   }
   
   li:last-child {
     border-left: none;
+  }
 
 li a {
     display: block;
@@ -54,9 +52,13 @@ li a:hover {
 body {
 background-image: url("./resources/img/B&W-Laptop");
 background-repeat: no-repeat;
-background-size: auto;
+background-size: cover;
 }
 
 .bw-laptop {
-    max-width: 100%;
+    max-width: 1000%;
+}
+
+#building {
+    text-align: center;
 }
