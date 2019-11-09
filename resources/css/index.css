@@ -95,6 +95,7 @@ body {
 }
 
 #lms {
+  text-align: center;
     display: block;
     width: 50%;
     height: 100px;
@@ -108,11 +109,12 @@ body {
     
   }
   
-  article {
-    
-    padding: 10px;
+  article { 
     color: white;
     background: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
   }
   
 
