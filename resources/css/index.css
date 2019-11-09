@@ -90,14 +90,32 @@ body {
   text-align: center;
 }
 
-section {
-  display: block;
-  background-color: lightgrey;
-  padding: 10px;
-  margin: 0px;
-  text-align: center;
-}
-
+#lmsimg {
+    display: block;
+    width: 50%;
+    float: left;
+    height: 267px;
+    overflow: hidden;
+  }
+  
+   {
+    display: block;
+    width: 41%;
+    float: right;
+    height: 267px;
+    overflow: hidden;
+  }
+  
+  article {
+    padding: 10px;
+    color: white;
+    background: black;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
 h3 {
   color: rgb(148, 14, 14);
 }
