@@ -24,7 +24,7 @@
   font-size: 50px;
 }
 
-ul {
+#navtabs {
   clear: both;
   list-style-type: none;
   margin: 0;
@@ -91,33 +91,38 @@ body {
   background-size: cover;
 }
 
+p {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 .bw-laptop {
   max-width: 100%;
 }
 
 #building {
   text-align: center;
-  color:  rgb(178, 33, 37);
+  color: rgb(178, 33, 37);
 }
 
 #Maxx {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .about {
-  text-align: center;
-  font-size: 18px;
+  text-align: left;
+  font-size: 20px;
 }
 
 #mission {
-  text-align: center;
+  text-align: left;
   color: rgb(178, 33, 37);
   display: block;
   width: 50%;
-  height: 100px;
+  height: 50%;
   overflow: hidden;
-  margin: 10px;
-  padding: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #missionst8mnt {
@@ -140,6 +145,7 @@ article {
 }
 
 .card {
+  display: block;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -155,9 +161,35 @@ article {
   padding: 2px 16px;
 }
 
+.left {
+  text-align: left;
+  float: left;
+  padding: 0 20px 20px 0;
+  margin: 50px;
+}
+
+span {
+  clear: both;
+  color: rgb(178, 33, 37);
+}
+
+.lms { 
+  list-style-type: none;
+  font-size: 25px;
+  background-color: grey;
+  margin: 20px;
+  padding: 20px;
+}
+
+.content li {
+  display: table-column;
+  height 
+ 
+}
+
 h4 {
   clear: both;
-  color:  rgb(178, 33, 37);
+  color: rgb(178, 33, 37);
   font-size: 20px;
 }
 
