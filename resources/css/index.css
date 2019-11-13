@@ -151,7 +151,6 @@ article {
   transition: 0.3s;
   width: 33.33%;
   margin: 30px auto 30px auto;
- 
 }
 
 .card:hover {
@@ -160,6 +159,12 @@ article {
 
 .container {
   padding: 2px 16px;
+}
+
+button {
+  background-color: rgb(36,35,35);
+  color: whitesmoke;
+  
 }
 
 .red, #left, #right {
@@ -183,6 +188,11 @@ article {
   width: 50%;
   height: 50%;
 }
+.lms {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+} 
 
 span {
   clear: both;
@@ -196,13 +206,11 @@ span {
   padding: 5px;
 }
 
-
-
 h4 {
   clear: both;
   color: rgb(178, 33, 37);
   background-color: rgba(0, 0, 0, 0.2);
-  font-size: 22px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -213,6 +221,11 @@ p {
 .content {
 text-align: center;
 margin: 100px auto 100px auto;
+}
+
+.cd-list {
+padding-left: 0px;
+margin: 0px;
 }
 
 footer {
@@ -231,6 +244,8 @@ footer {
 
 .ft-tab {
   list-style-type: none;
+  background-color: rgb(36,35,35);
+  color: whitesmoke;
   padding: 15px;
   text-align: center;
   margin: 0 auto 0 auto;
