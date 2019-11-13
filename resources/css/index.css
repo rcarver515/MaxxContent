@@ -190,7 +190,7 @@ button {
 }
 .lms {
   list-style-type: none;
-  float: left;
+  float: center;
   text-align: center;
 } 
 
