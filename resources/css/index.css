@@ -174,7 +174,11 @@ button {
 }
 
 .red, #left, #right {
-  display: inline-block;
+   display: inline-block;
+}
+
+.red {
+  margin: 40px auto 40px auto;
 }
 
 #left {
@@ -203,6 +207,7 @@ button {
   list-style-type: none;
   float: center;
   text-align: center;
+  margin-bottom: 80px;
 } 
 
 span {
@@ -210,11 +215,21 @@ span {
   color: rgb(178, 33, 37);
 }
 
+.content {
+  clear: both;
+  margin: 40px auto 40px auto;
+}
 .content li  {  
   list-style-type: none;
   font-size: 15px;
   margin: 5px;
   padding: 5px;
+}
+
+#user {
+  float: left;
+  width: 70%;
+  height: 70%;
 }
 
 h4 {
