@@ -82,6 +82,15 @@ li.dropdown {
   display: block;
 }
 
+div {
+/* background-color: rgb(178, 33, 37); */
+}
+
+.bw-laptop {
+  /* background-color: rgb(178, 33, 37); */
+  opacity: 1;
+}
+
 * {
   box-sizing: border-box;
 }
