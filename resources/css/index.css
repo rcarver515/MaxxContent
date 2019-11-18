@@ -207,7 +207,8 @@ button {
   list-style-type: none;
   float: center;
   text-align: center;
-  margin-bottom: 80px;
+  font-weight: bold;
+  margin-bottom: 100px;
 } 
 
 span {
@@ -215,15 +216,24 @@ span {
   color: rgb(178, 33, 37);
 }
 
+#publishers {
+  width: 100%;
+}
+
 .content {
   clear: both;
-  margin: 40px auto 40px auto;
+  font-size: 30px;
+  margin: 100px auto 100px auto;
 }
 .content li  {  
   list-style-type: none;
   font-size: 15px;
   margin: 5px;
   padding: 5px;
+}
+
+#devices {
+ width: 100%; 
 }
 
 #user {
@@ -247,7 +257,7 @@ p {
 
 .content {  
 text-align: center;
-margin: 100px auto 100px auto;
+margin: 150px auto 100px auto;
 }
 
 .cd-list {
@@ -257,10 +267,11 @@ margin: 0px;
 }
 
 footer {
+  display: block;
   background-color: rgb(178, 33, 37);
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align: left;
   margin: 15px;
   padding: 10px;
 }
@@ -270,12 +281,21 @@ footer {
   text-align: left;
 }
 
+.column {
+float: left;
+width: 50%;
+opacity: .5;
+color: whitesmoke;
+}
+
 .ft-tab {
+  float: left;
+  /* flex-flow: column; */
   list-style-type: none;
   background-color: rgb(36,35,35);
   color: whitesmoke;
   padding: 15px;
-  text-align: center;
+  text-align: left;
   margin: 0 auto 0 auto;
 }
 
