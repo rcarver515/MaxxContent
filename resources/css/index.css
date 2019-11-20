@@ -120,21 +120,25 @@ p {
 
 #Maxx {
   font-size: 35px;
+  padding: 10px;
 }
 
 .about {
   text-align: left;
   font-size: 20px;
+  padding: 10px;
 }
 
 #mission {
+  font-weight: bold;
+  font-size: 35px;
   text-align: left;
   color: rgb(178, 33, 37);
   display: block;
   width: 50%;
   height: 50%;
   overflow: hidden;
-  margin: auto 50px auto 50px;
+  margin: 0;
   padding: 0px;
 }
 
@@ -142,10 +146,27 @@ p {
   margin: 10px auto 10px auto;
   font-size: 25px;
   color: rgb(178, 33, 37);
-  text-align: center;
+  text-align: left;
+}
+
+.inspire {
+  display: block;
+  width: 50%;
+  height: 700px;
+  float: left;
+  height: 267px;
+  overflow: hidden;
+}
+aside {
+  display: block;
+  width: 50%;
+  height: 267px;
+  float: right;
+  overflow: hidden;
 }
 
 article {
+  clear: both;
   color: white;
   background: lightgray;
   text-align: center;
