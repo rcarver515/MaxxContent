@@ -293,6 +293,7 @@ p {
 
 .content {
   text-align: center;
+  color: rgb(178, 33, 37);
   margin: 150px auto 100px auto;
 }
 
@@ -361,7 +362,7 @@ a.ft-tab {
   list-style-type: none;
   background-color: rgb(36, 35, 35);
   color: whitesmoke;
-  padding: 15px;
+  padding: 20px;
   /* text-align: center; */
   margin: 0 auto 0 auto;
 }
@@ -370,6 +371,7 @@ a.ft-tab {
 display: inline;
 margin: 0 50% 0 50%;
 text-align: center;
+/* background-color: rgb(178, 33, 37); */
 }
 
 #copy {
