@@ -313,13 +313,15 @@ footer {
   /* text-align: left; */
   /* margin: 15px ; */
   padding: 10px;
+  /* margin: 0 50% 0 50%; */ */
 }
 
 p.foot {
   font-size: 15px;
   font-weight: bold;
-  text-align: right;
+  text-align: center;
 }
+
 #maxxc {
   /* float: center; */
 }
