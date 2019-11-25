@@ -90,6 +90,12 @@ li.dropdown {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#trusted {
+  font-size: 45px;
+  color: rgb(178, 33, 37);
+  text-align: center;
+}
+
 body {
   background-image: url("./resources/img/B&W-Laptop");
   background-repeat: no-repeat;
@@ -313,7 +319,7 @@ p.foot-hd {
   padding-top: 2px;
 }
 p.foot {
-  font-size: 15px;
+  font-size: 18px;
   /* font-weight: bold; */
   text-align: center;
   padding-bottom: 5px;
@@ -359,20 +365,21 @@ p.column {
   color: whitesmoke;
 }
 
+#ft-links {
+display: inline;
+background-color:rgb(36, 35, 35) ;
+margin: 0 50% 0 50%;
+text-align: center;
+font-size: 12px;
+}
 
 a.ft-tab {
   list-style-type: none;
+  display: inline;
   background-color: rgb(36, 35, 35);
   color: whitesmoke;
   padding: 20px;
   margin: 0 auto 0 auto;
-}
-
-#ft-links {
-display: inline;
-margin: 0 50% 0 50%;
-text-align: center;
-font-size: 12px;
 }
 
 #copy {
