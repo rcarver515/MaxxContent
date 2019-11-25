@@ -297,8 +297,8 @@ p {
   margin: 150px auto 100px auto;
 }
 
-.cd-list {
-  font-size: 18px;
+p.cd-list {
+  font-size: 15px;
   padding: 10px;
   margin: 0px;
 }
@@ -306,7 +306,7 @@ p {
 footer {
   display: grid;
   /* font-size: 15px; */
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   background-color: rgb(178, 33, 37);
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -379,6 +379,7 @@ a.ft-tab {
 display: inline;
 margin: 0 50% 0 50%;
 text-align: center;
+font-size: 12px;
 /* background-color: rgb(178, 33, 37); */
 }
 
