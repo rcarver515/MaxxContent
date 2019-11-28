@@ -15,14 +15,6 @@
   overflow: hidden;
 }
 
-#banner {
-  display: inline-block;
-  color: rgb(178, 33, 37);
-  float: right;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-}
-
 #navtabs {
   clear: both;
   list-style-type: none;
@@ -90,24 +82,14 @@ li.dropdown {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#trusted {
-  font-size: 45px;
-  color: rgb(178, 33, 37);
+p {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-size: 20px;
   text-align: center;
 }
 
-body {
-  background-image: url("./resources/img/B&W-Laptop");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-p {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-.bw-laptop {
+.bw-hero {
   max-width: 100%;
 }
 
@@ -123,15 +105,31 @@ p {
   padding: 20px;
 }
 
-#Maxx {
-  font-size: 35px;
-  padding: 10px;
+#trusted {
+  font-size: 45px;
+  color: rgb(178, 33, 37);
+  text-align: center;
 }
 
 .about {
   text-align: left;
   font-size: 20px;
   padding: 10px;
+}
+
+#Maxx {
+  font-size: 35px;
+  padding: 10px;
+}
+
+.inspire {
+  display: block;
+  width: 50%;
+  height: 267px;
+  float: left;
+  height: 267px;
+  overflow: hidden;
+  margin: 40px auto 40px auto;
 }
 
 #mission {
@@ -154,16 +152,6 @@ p {
   text-align: left;
 }
 
-.inspire {
-  display: block;
-  width: 50%;
-  height: 267px;
-  float: left;
-  height: 267px;
-  overflow: hidden;
-  margin: 40px auto 40px auto;
-}
-
 aside {
   position: static;
   width: 50%;
@@ -171,14 +159,6 @@ aside {
   float: right;
   margin: 40px auto 40px auto;
   overflow: hidden;
-}
-
-article {
-  clear: both;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font-size: 20px;
 }
 
 .middle-content {
@@ -198,24 +178,35 @@ article {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
-  padding: 2px 16px;
+h4 {
+  clear: both;
+  color: rgb(178, 33, 37);
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+  text-align: center;
 }
 
 button {
   background-color: rgb(36, 35, 35);
   color: whitesmoke;
   font-size: 20px;
-
+  text-align: center;
 }
 
-.red,
-#left,
-#right {
+#banner {
   display: inline-block;
+  color: rgb(178, 33, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+p.cd-list {
+  font-size: 15px;
+  padding: 10px;
+  margin: 0px;
 }
 
 .red {
+  clear: both;
   margin: 40px auto 40px auto;
 }
 
@@ -224,10 +215,8 @@ button {
   color: whitesmoke;
   text-align: left;
   background-color: rgb(178, 33, 37);
-  float: left;
-  width: 100%;
   padding: 75px;
-  margin: 0px;
+  margin: 50px;
 }
 
 #right {
@@ -237,8 +226,19 @@ button {
   height: 75%;
 }
 
-button {
+.banner {
+  clear: both;
+  font-size: 30px;
   text-align: center;
+  color: rgb(178, 33, 37);
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+#user {
+  float: left;
+  width: 70%;
+  height: 70%;
 }
 
 .lms {
@@ -249,21 +249,14 @@ button {
   margin-bottom: 100px;
 }
 
-span {
-  clear: both;
-  color: rgb(178, 33, 37);
-}
-
 #publishers {
+  clear: both;
   width: 100%;
+  margin-top: 100px;
 }
 
-.banner {
-  clear: both;
-  font-size: 30px;
-  text-align: center;
-  color: rgb(178, 33, 37);
-  margin: 150px auto 150px auto;
+#devices {
+  width: 100%;
 }
 
 .content li {
@@ -273,36 +266,11 @@ span {
   padding: 5px;
 }
 
-#devices {
-  width: 100%;
-}
-
-#user {
-  float: left;
-  width: 70%;
-  height: 70%;
-}
-
-h4 {
-  clear: both;
-  color: rgb(178, 33, 37);
-  background-color: rgba(0, 0, 0, 0.2);
-  font-size: 25px;
-  text-align: center;
-}
-
-p {
-  font-size: 20px;
-  text-align: center;
-}
-
-p.cd-list {
-  font-size: 15px;
-  padding: 10px;
-  margin: 0px;
-}
-
 footer {
+box-sizing: border-box;
+}
+
+.ftred {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: rgb(178, 33, 37);
@@ -318,78 +286,35 @@ p.foot-hd {
   padding-bottom: 5px;
   padding-top: 2px;
 }
+
 p.foot {
   font-size: 18px;
-  /* font-weight: bold; */
   text-align: center;
   padding-bottom: 5px;
   padding-top: 5px;
+  margin-bottom: 0%;
 }
 
-#maxxc {
-  /* float: center; */
-}
-
-#email {
-  /* position: relative; */
-  /* display: block; */
-  /* float: left; */
-  /* width: 25%; */
-}
-
-
-
-#hours {
-  /* position: relative; */
-  /* display: block; */
-  /* float: leftt; */
-  /* width: 25%; */
-}
-
-#service {
-  /* position: relative; */
-  /* display: block; */
-  /* float: left; */
-  /* width: 25%; */
-}
-
-#visit {
-  /* position: relative; */
-  /* display: block; */
-  /* float: left; */
-  /* width: 25%; */
-}
-
-p.column {
-  opacity: .5;
-  color: whitesmoke;
-}
-
-#ft-links {
-display: inline;
-background-color:rgb(36, 35, 35) ;
-margin: 0 50% 0 50%;
-text-align: center;
-font-size: 12px;
-}
-
-a.ft-tab {
-  list-style-type: none;
+.ftgrey {
   display: inline;
+  /* grid-template-columns: auto auto auto; */
+  /* list-style-type: none; */
+  text-align: center;
   background-color: rgb(36, 35, 35);
   color: whitesmoke;
   padding: 20px;
-  margin: 0 auto 0 auto;
+  margin: 0 50% 0 50%;
 }
 
-#copy {
-  clear: both;
-  position: relative;
+.ftblack {
+  /* clear: both; */
+  /* position: absolute; */
+  max-width: 100%;
   min-height: 1px;
   background-color: rgb(36, 35, 35);
   color: whitesmoke;
   text-align: center;
-  margin: 0 auto 0 auto;
+  /* margin: 0 auto 0 auto; */
   padding-right: 15px;
   padding-left: 15px;
 }
