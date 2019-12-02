@@ -85,7 +85,7 @@ li.dropdown {
 p {
   padding-bottom: 40px;
   padding-top: 40px;
-  font-size: 20px;
+  /* font-size: 30px; */
   text-align: center;
 }
 
@@ -111,7 +111,14 @@ p {
   text-align: center;
 }
 
-.about {
+#about {
+  display: grid;
+  grid-template-columns: auto auto;
+  float: left;
+}
+ 
+
+p.about {
   text-align: left;
   font-size: 20px;
   padding: 10px;
@@ -120,6 +127,7 @@ p {
 #Maxx {
   font-size: 35px;
   padding: 10px;
+  color: rgb(178, 33, 37);
 }
 
 .inspire {
@@ -132,7 +140,7 @@ p {
   margin: 40px auto 40px auto;
 }
 
-#mission {
+.mission {
   font-weight: bold;
   font-size: 35px;
   text-align: left;
@@ -140,7 +148,7 @@ p {
   display: block;
   width: 50%;
   height: 50%;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
   padding: 0px;
 }
@@ -148,7 +156,7 @@ p {
 #missionst8mnt {
   margin: 10px auto 10px auto;
   font-size: 25px;
-  color: rgb(178, 33, 37);
+  color: black;
   text-align: left;
 }
 
@@ -159,6 +167,15 @@ aside {
   float: right;
   margin: 40px auto 40px auto;
   overflow: hidden;
+}
+
+.keyboard {
+  position: static;
+  width: 50%;
+  height: 267px;
+  float: left;
+  margin: 40px auto 40px auto;
+  /* overflow: hidden; */
 }
 
 .middle-content {
@@ -181,9 +198,14 @@ aside {
 h4 {
   clear: both;
   color: rgb(178, 33, 37);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(68,84,106,.5);
   font-size: 25px;
   text-align: center;
+}
+
+p.cd-list {
+font-size: 30px;
+text-align: left;
 }
 
 button {
@@ -200,7 +222,8 @@ button {
   font-size: 50px;
 }
 p.cd-list {
-  font-size: 15px;
+  color: black;
+  font-size: 18px;
   padding: 10px;
   margin: 0px;
 }
@@ -266,15 +289,16 @@ p.cd-list {
   padding: 5px;
 }
 
-footer {
+.landing-footer {
 box-sizing: border-box;
+color: whitesmoke;
 }
 
 .ftred {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   background-color: rgb(178, 33, 37);
-  color: black;
+  color: lightgrey;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
 }
@@ -292,29 +316,39 @@ p.foot {
   text-align: center;
   padding-bottom: 5px;
   padding-top: 5px;
-  margin-bottom: 0%;
+  margin-bottom: 10px;
 }
 
-.ftgrey {
+.container {
   display: inline;
-  /* grid-template-columns: auto auto auto; */
-  /* list-style-type: none; */
-  text-align: center;
-  background-color: rgb(36, 35, 35);
+  max-width: 100%;
+  padding-right: 15px;
   color: whitesmoke;
-  padding: 20px;
-  margin: 0 50% 0 50%;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.links a{
+color: whitesmoke;
+padding: 15px;
+/* margin: auto; */
+}
+
+.ftgrey {  
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgba(47,46,46,1);
 }
 
 .ftblack {
-  /* clear: both; */
-  /* position: absolute; */
   max-width: 100%;
-  min-height: 1px;
   background-color: rgb(36, 35, 35);
   color: whitesmoke;
   text-align: center;
-  /* margin: 0 auto 0 auto; */
   padding-right: 15px;
   padding-left: 15px;
 }
+
