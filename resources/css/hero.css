@@ -51,7 +51,7 @@ Caption text
 .content {
     position: relative;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(0, 0, 0, 0.5);
     color: #f1f1f1;
     text-align: center;
     width: 100%;

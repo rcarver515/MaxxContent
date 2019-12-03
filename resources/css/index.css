@@ -80,12 +80,12 @@ li.dropdown {
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
 }
 
 p {
   padding-bottom: 40px;
   padding-top: 40px;
-  /* font-size: 30px; */
   text-align: center;
 }
 
@@ -98,9 +98,9 @@ p {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(178,33,37,0.2);
   text-align: center;
-  color: rgb(178, 33, 37);
+  color: whitesmoke;
   width: 98.5%;
   padding: 20px;
 }
@@ -115,9 +115,9 @@ p {
   display: grid;
   grid-template-columns: auto auto;
   float: left;
+  margin: 20px;
 }
  
-
 p.about {
   text-align: left;
   font-size: 20px;
@@ -126,18 +126,16 @@ p.about {
 
 #Maxx {
   font-size: 35px;
-  padding: 10px;
+  padding: 0px;
   color: rgb(178, 33, 37);
 }
 
-.inspire {
-  display: block;
-  width: 50%;
-  height: 267px;
+#inspire {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: lightgray;
   float: left;
-  height: 267px;
-  overflow: hidden;
-  margin: 40px auto 40px auto;
+  margin: 20px;
 }
 
 .mission {
@@ -145,19 +143,25 @@ p.about {
   font-size: 35px;
   text-align: left;
   color: rgb(178, 33, 37);
-  display: block;
   width: 50%;
-  height: 50%;
-  /* overflow: hidden; */
-  margin: 0;
-  padding: 0px;
+  margin: 5px;
+  padding: 10px;
 }
 
 #missionst8mnt {
-  margin: 10px auto 10px auto;
   font-size: 25px;
   color: black;
   text-align: left;
+  margin: 5px;
+  padding: 10px;
+}
+
+#tools {
+  clear: both;
+  display: grid;
+  grid-template-columns: auto auto;
+  float: left;
+  margin: 20px;
 }
 
 aside {
@@ -175,7 +179,6 @@ aside {
   height: 267px;
   float: left;
   margin: 40px auto 40px auto;
-  /* overflow: hidden; */
 }
 
 .middle-content {
@@ -204,7 +207,7 @@ h4 {
 }
 
 p.cd-list {
-font-size: 30px;
+font-size: 25px;
 text-align: left;
 }
 
@@ -216,10 +219,10 @@ button {
 }
 
 #banner {
-  display: inline-block;
+  float: right;
   color: rgb(178, 33, 37);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 30px;
 }
 p.cd-list {
   color: black;
@@ -228,16 +231,17 @@ p.cd-list {
   margin: 0px;
 }
 
-.red {
+#red {
   clear: both;
-  margin: 40px auto 40px auto;
+  background-color: rgb(178, 33, 37);
+  margin: 100px auto 100px auto;
 }
 
 #left {
   font-size: 35px;
   color: whitesmoke;
   text-align: left;
-  background-color: rgb(178, 33, 37);
+  /* background-color: rgb(178, 33, 37); */
   padding: 75px;
   margin: 50px;
 }
@@ -249,19 +253,26 @@ p.cd-list {
   height: 75%;
 }
 
-.banner {
+#powerful {
   clear: both;
-  font-size: 30px;
-  text-align: center;
-  color: rgb(178, 33, 37);
+  display: grid;
+  grid-template-columns: auto auto;
   margin-top: 150px;
   margin-bottom: 100px;
 }
 
+.banner {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(178, 33, 37);
+  margin: 50px;
+}
+
 #user {
   float: left;
-  width: 70%;
-  height: 70%;
+  width: 85%;
+  height: 85%;
+  margin-top: 40px 10px 40px 10px;
 }
 
 .lms {
@@ -333,7 +344,6 @@ p.foot {
 .links a{
 color: whitesmoke;
 padding: 15px;
-/* margin: auto; */
 }
 
 .ftgrey {  
