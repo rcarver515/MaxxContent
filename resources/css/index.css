@@ -122,6 +122,7 @@ p.about {
   text-align: left;
   font-size: 20px;
   padding: 10px;
+  margin: 20px;
 }
 
 #Maxx {
@@ -135,6 +136,7 @@ p.about {
   grid-template-columns: auto auto;
   background-color: rgba(68,84,106,.3);
   float: left;
+  padding: 10px;
   margin: 20px;
 }
 
@@ -219,6 +221,10 @@ button {
   text-align: center;
 }
 
+.middle-content {
+  margin-bottom: 50px;
+}
+
 #banner {
   float: right;
   color: rgb(178, 33, 37);
@@ -235,7 +241,7 @@ p.cd-list {
 #red {
   clear: both;
   background-color: rgb(178, 33, 37);
-  margin: 100px auto 100px auto;
+  margin: 200px auto 200px auto;
 }
 
 #left {
