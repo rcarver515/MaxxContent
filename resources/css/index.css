@@ -133,7 +133,7 @@ p.about {
 #inspire {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: lightgray;
+  background-color: rgba(68,84,106,.3);
   float: left;
   margin: 20px;
 }
@@ -213,7 +213,7 @@ text-align: left;
 }
 
 button {
-  background-color: rgb(36, 35, 35);
+  background-color: rgb(68,84,106);
   color: whitesmoke;
   font-size: 20px;
   text-align: center;
