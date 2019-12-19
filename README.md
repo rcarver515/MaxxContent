@@ -5,9 +5,9 @@ This proved to be an interesting project. Upon joining the MaxxContent team I wa
 
 Admittedly somewhat naive and still new to the world of web development, I decided to create this static site (wireframe) using only HTML and CSS. My reasoning was simply to create the basic framework and "hopefully" the dev team in India could make sense of my static site and add the necessary code to make it dynamic. Somewhat of a pefectionist, this took me longer than it probably should have: floats really can be a pain!
 
-Although in the end my initial idea of creating a static site did not pan out, I am proud of the framework I created. 
+Although in the end my initial idea for creating a static site did not pan out, I am proud of the framework I created. 
 
-Key features of initial the static site:
+Key features of the initial static site:
 
     1. Hero image background slideshow with a text overlay
 
@@ -26,6 +26,8 @@ After considering the complexity of addressing their concerns (and now pressed f
     
     3. Why doesn't our company email work anymore?
     
- Needless to say this has been a real learning experience. The beginning of countless more to come.
+ Needless to say this has been a real learning experience. Certainly, the beginning of countless more to come.
+ 
+ To see the final product goto www.maxxcontent.com
 
 
