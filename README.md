@@ -20,6 +20,7 @@ Key features of the initial static site:
 Upon sharing my repo with the India dev team I was immediately met with a host of questions (understandably in retrospect). Apparently converting a static site to something dynamic requires more than I realized, not impossible just complicated.  I now have a deeper appreciation for thinking like a programmer and the importance of adhering to the Agile/Sprint process.  
 
 After considering the complexity of addressing their concerns (and now pressed for time with a swiftly approaching deadline) I quickly decided to abandon my static site and create a dynamic site with Wix. I would like to say that this was the panacea I was looking for, however, this also offered its own set of challenges: 
+
     1. How do you redirect a domain name? 
     
     2. What are A-records, CNames, and MX-records?
