@@ -29,7 +29,7 @@ After considering the complexity of addressing their concerns (and now pressed f
     
     4. Why doesn't our company email work anymore?
     
- Needless to say this has been a real learning experience,and certainly, the beginning of countless more to come.
+ Needless to say this has been a great learning experience, and certainly, the beginning of countless more to come.
  
  To see the final product goto www.maxxcontent.com
 
