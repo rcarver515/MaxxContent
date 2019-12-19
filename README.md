@@ -1,5 +1,5 @@
 # MaxxContent
-Task: Website re-design for Maxx Content
+Task: Website re-design for MaxxContent, LLC.
 
 This proved to be an interesting project. Upon joining the MaxxContent team I was immediately tasked with redesiging the website. The existing (dynamic) site was created with PHP. At the time I was only experienced with Javascript. So, in addition to creating my first official website, post coding bootcamp, I also needed to learn PHP.  
 
@@ -9,13 +9,13 @@ Although in the end my initial idea for creating a static site did not pan out, 
 
 Key features of the initial static site:
 
-    1. Hero image background slideshow with a text overlay
+    1. Hero background image slideshow with a text overlay
 
     2. Single page navigation
 
-    3. Incorporated floats and grids in layout
+    3. Successfully incorporated floats and grids in the layout
 
-    4. Intentional use of black & white asthetic with selective use of brand color throughout (my attempt at UI in my design)
+    4. Intentional use of black & white asthetic with selective use of Maxx's brand color throughout (my subtle attempt at UI in my design)
 
 Upon sharing my repo with the India dev team I was immediately met with a host of questions (understandably in retrospect). Apparently converting a static site to something dynamic requires more than I realized, not impossible just complicated.  I now have a deeper appreciation for thinking like a programmer and the importance of adhering to the Agile/Sprint process.  
 
@@ -29,8 +29,6 @@ After considering the complexity of addressing their concerns (and now pressed f
     
     4. Why doesn't our company email work anymore?
     
- Needless to say this has been a great learning experience, and certainly, the beginning of countless more to come.
+In spite of these new issues, this was still a better solution. And, with the help of Go Daddy and Google customer support and a few Google searches each of these new concerns was quickly resolved. Needless to say this has been a great learning experience, and certainly, the beginning of countless more to come.
  
  To see the final product goto www.maxxcontent.com
-
-
