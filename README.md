@@ -29,6 +29,6 @@ After considering the complexity of addressing their concerns (and now pressed f
     
     4. Why doesn't our company email work anymore?
     
-In spite of these new issues, this was still a better solution. And, with the help of Go Daddy and Google customer support and a few Google searches each of these new concerns was quickly resolved. Needless to say this has been a great learning experience, and certainly, the beginning of countless more to come.
+In spite of these new issues, this was still a better solution. And, with the help of GoDaddy and Google customer support and a few Google searches each of these new concerns was quickly resolved. Needless to say this has been a great learning experience, and certainly, the beginning of countless more to come.
  
  To see the final product goto www.maxxcontent.com
